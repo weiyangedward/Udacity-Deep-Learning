@@ -1,0 +1,412 @@
+Training set (200000, 28, 28) (200000,)
+Validation set (10000, 28, 28) (10000,)
+Test set (10000, 28, 28) (10000,)
+Training set (200000, 784) (200000, 10)
+Validation set (10000, 784) (10000, 10)
+Test set (10000, 784) (10000, 10)
+hidden_nodes =  5 layer_sizes =  7 Ws =  6 bs =  6
+Minibatch at step 0: (0.089 sec)
+Train Accuracy: 6.2%
+Valid Accuracy: 8.7%
+Test Accuracy: 8.9%
+Minibatch at step 2000: (4.551 sec)
+Train Accuracy: 89.8%
+Valid Accuracy: 84.5%
+Test Accuracy: 90.7%
+Minibatch at step 4000: (4.750 sec)
+Train Accuracy: 83.6%
+Valid Accuracy: 85.1%
+Test Accuracy: 91.2%
+Minibatch at step 6000: (4.496 sec)
+Train Accuracy: 85.2%
+Valid Accuracy: 85.2%
+Test Accuracy: 91.4%
+Minibatch at step 8000: (4.684 sec)
+Train Accuracy: 86.7%
+Valid Accuracy: 85.4%
+Test Accuracy: 91.7%
+Minibatch at step 10000: (4.725 sec)
+Train Accuracy: 78.1%
+Valid Accuracy: 85.4%
+Test Accuracy: 91.6%
+Minibatch at step 12000: (4.986 sec)
+Train Accuracy: 89.8%
+Valid Accuracy: 85.9%
+Test Accuracy: 91.9%
+Minibatch at step 14000: (4.836 sec)
+Train Accuracy: 82.0%
+Valid Accuracy: 86.0%
+Test Accuracy: 92.1%
+Minibatch at step 16000: (4.792 sec)
+Train Accuracy: 84.4%
+Valid Accuracy: 86.1%
+Test Accuracy: 92.2%
+Minibatch at step 18000: (5.038 sec)
+Train Accuracy: 85.2%
+Valid Accuracy: 86.2%
+Test Accuracy: 92.1%
+Minibatch at step 20000: (5.183 sec)
+Train Accuracy: 94.5%
+Valid Accuracy: 86.5%
+Test Accuracy: 92.2%
+Minibatch at step 22000: (5.150 sec)
+Train Accuracy: 89.1%
+Valid Accuracy: 86.5%
+Test Accuracy: 92.5%
+Minibatch at step 24000: (5.182 sec)
+Train Accuracy: 85.9%
+Valid Accuracy: 86.5%
+Test Accuracy: 92.5%
+Minibatch at step 26000: (4.848 sec)
+Train Accuracy: 89.1%
+Valid Accuracy: 86.5%
+Test Accuracy: 92.5%
+Minibatch at step 28000: (5.017 sec)
+Train Accuracy: 82.8%
+Valid Accuracy: 86.8%
+Test Accuracy: 92.5%
+Minibatch at step 30000: (5.011 sec)
+Train Accuracy: 88.3%
+Valid Accuracy: 87.0%
+Test Accuracy: 92.9%
+Minibatch at step 32000: (4.801 sec)
+Train Accuracy: 87.5%
+Valid Accuracy: 87.1%
+Test Accuracy: 93.1%
+Minibatch at step 34000: (4.959 sec)
+Train Accuracy: 86.7%
+Valid Accuracy: 86.9%
+Test Accuracy: 92.9%
+Minibatch at step 36000: (5.081 sec)
+Train Accuracy: 85.2%
+Valid Accuracy: 87.0%
+Test Accuracy: 93.1%
+Minibatch at step 38000: (4.809 sec)
+Train Accuracy: 90.6%
+Valid Accuracy: 87.2%
+Test Accuracy: 93.2%
+Minibatch at step 40000: (4.984 sec)
+Train Accuracy: 89.8%
+Valid Accuracy: 87.4%
+Test Accuracy: 93.2%
+Minibatch at step 42000: (4.853 sec)
+Train Accuracy: 86.7%
+Valid Accuracy: 87.5%
+Test Accuracy: 93.3%
+Minibatch at step 44000: (5.033 sec)
+Train Accuracy: 86.7%
+Valid Accuracy: 87.4%
+Test Accuracy: 93.2%
+Minibatch at step 46000: (5.005 sec)
+Train Accuracy: 87.5%
+Valid Accuracy: 87.4%
+Test Accuracy: 93.5%
+Minibatch at step 48000: (4.822 sec)
+Train Accuracy: 89.8%
+Valid Accuracy: 87.3%
+Test Accuracy: 93.4%
+Minibatch at step 50000: (4.895 sec)
+Train Accuracy: 89.1%
+Valid Accuracy: 87.8%
+Test Accuracy: 93.5%
+Minibatch at step 52000: (4.598 sec)
+Train Accuracy: 89.8%
+Valid Accuracy: 87.6%
+Test Accuracy: 93.3%
+Minibatch at step 54000: (4.757 sec)
+Train Accuracy: 87.5%
+Valid Accuracy: 87.8%
+Test Accuracy: 93.5%
+Minibatch at step 56000: (4.589 sec)
+Train Accuracy: 85.2%
+Valid Accuracy: 87.8%
+Test Accuracy: 93.6%
+Minibatch at step 58000: (4.577 sec)
+Train Accuracy: 89.8%
+Valid Accuracy: 87.8%
+Test Accuracy: 93.7%
+Minibatch at step 60000: (5.059 sec)
+Train Accuracy: 88.3%
+Valid Accuracy: 87.8%
+Test Accuracy: 93.5%
+Minibatch at step 62000: (5.068 sec)
+Train Accuracy: 93.8%
+Valid Accuracy: 87.9%
+Test Accuracy: 93.5%
+Minibatch at step 64000: (4.718 sec)
+Train Accuracy: 90.6%
+Valid Accuracy: 87.8%
+Test Accuracy: 93.8%
+Minibatch at step 66000: (4.974 sec)
+Train Accuracy: 89.1%
+Valid Accuracy: 87.7%
+Test Accuracy: 93.8%
+Minibatch at step 68000: (4.702 sec)
+Train Accuracy: 93.8%
+Valid Accuracy: 88.1%
+Test Accuracy: 93.7%
+Minibatch at step 70000: (4.671 sec)
+Train Accuracy: 93.8%
+Valid Accuracy: 88.0%
+Test Accuracy: 93.6%
+Minibatch at step 72000: (5.131 sec)
+Train Accuracy: 85.2%
+Valid Accuracy: 88.0%
+Test Accuracy: 94.0%
+Minibatch at step 74000: (4.849 sec)
+Train Accuracy: 90.6%
+Valid Accuracy: 87.7%
+Test Accuracy: 93.9%
+Minibatch at step 76000: (4.951 sec)
+Train Accuracy: 91.4%
+Valid Accuracy: 87.9%
+Test Accuracy: 93.6%
+Minibatch at step 78000: (4.965 sec)
+Train Accuracy: 92.2%
+Valid Accuracy: 88.0%
+Test Accuracy: 93.9%
+Minibatch at step 80000: (4.466 sec)
+Train Accuracy: 88.3%
+Valid Accuracy: 88.1%
+Test Accuracy: 93.8%
+Minibatch at step 82000: (5.028 sec)
+Train Accuracy: 88.3%
+Valid Accuracy: 88.3%
+Test Accuracy: 93.9%
+Minibatch at step 84000: (4.919 sec)
+Train Accuracy: 90.6%
+Valid Accuracy: 88.2%
+Test Accuracy: 93.8%
+Minibatch at step 86000: (5.073 sec)
+Train Accuracy: 91.4%
+Valid Accuracy: 87.9%
+Test Accuracy: 93.7%
+Minibatch at step 88000: (4.964 sec)
+Train Accuracy: 93.0%
+Valid Accuracy: 88.0%
+Test Accuracy: 93.7%
+Minibatch at step 90000: (5.038 sec)
+Train Accuracy: 91.4%
+Valid Accuracy: 88.2%
+Test Accuracy: 93.7%
+Minibatch at step 92000: (4.758 sec)
+Train Accuracy: 89.1%
+Valid Accuracy: 88.1%
+Test Accuracy: 94.0%
+Minibatch at step 94000: (4.839 sec)
+Train Accuracy: 94.5%
+Valid Accuracy: 88.1%
+Test Accuracy: 93.9%
+Minibatch at step 96000: (5.040 sec)
+Train Accuracy: 89.1%
+Valid Accuracy: 88.1%
+Test Accuracy: 93.8%
+Minibatch at step 98000: (5.081 sec)
+Train Accuracy: 87.5%
+Valid Accuracy: 88.2%
+Test Accuracy: 93.9%
+Minibatch at step 100000: (5.017 sec)
+Train Accuracy: 92.2%
+Valid Accuracy: 88.1%
+Test Accuracy: 93.9%
+Minibatch at step 102000: (4.509 sec)
+Train Accuracy: 91.4%
+Valid Accuracy: 88.3%
+Test Accuracy: 94.2%
+Minibatch at step 104000: (4.894 sec)
+Train Accuracy: 92.2%
+Valid Accuracy: 88.2%
+Test Accuracy: 94.0%
+Minibatch at step 106000: (4.945 sec)
+Train Accuracy: 90.6%
+Valid Accuracy: 88.1%
+Test Accuracy: 94.0%
+Minibatch at step 108000: (5.165 sec)
+Train Accuracy: 94.5%
+Valid Accuracy: 88.0%
+Test Accuracy: 94.0%
+Minibatch at step 110000: (5.297 sec)
+Train Accuracy: 92.2%
+Valid Accuracy: 88.5%
+Test Accuracy: 94.0%
+Minibatch at step 112000: (5.253 sec)
+Train Accuracy: 93.0%
+Valid Accuracy: 88.2%
+Test Accuracy: 93.9%
+Minibatch at step 114000: (5.265 sec)
+Train Accuracy: 89.8%
+Valid Accuracy: 87.8%
+Test Accuracy: 93.8%
+Minibatch at step 116000: (5.317 sec)
+Train Accuracy: 88.3%
+Valid Accuracy: 88.5%
+Test Accuracy: 94.3%
+Minibatch at step 118000: (5.193 sec)
+Train Accuracy: 93.8%
+Valid Accuracy: 88.1%
+Test Accuracy: 94.0%
+Minibatch at step 120000: (5.234 sec)
+Train Accuracy: 90.6%
+Valid Accuracy: 88.3%
+Test Accuracy: 94.2%
+Minibatch at step 122000: (5.264 sec)
+Train Accuracy: 92.2%
+Valid Accuracy: 88.2%
+Test Accuracy: 94.1%
+Minibatch at step 124000: (5.163 sec)
+Train Accuracy: 93.0%
+Valid Accuracy: 88.3%
+Test Accuracy: 94.1%
+Minibatch at step 126000: (5.136 sec)
+Train Accuracy: 89.8%
+Valid Accuracy: 88.2%
+Test Accuracy: 94.0%
+Minibatch at step 128000: (5.233 sec)
+Train Accuracy: 93.0%
+Valid Accuracy: 88.4%
+Test Accuracy: 94.2%
+Minibatch at step 130000: (5.174 sec)
+Train Accuracy: 93.8%
+Valid Accuracy: 88.2%
+Test Accuracy: 94.1%
+Minibatch at step 132000: (5.154 sec)
+Train Accuracy: 89.1%
+Valid Accuracy: 88.5%
+Test Accuracy: 94.0%
+Minibatch at step 134000: (5.200 sec)
+Train Accuracy: 89.1%
+Valid Accuracy: 88.3%
+Test Accuracy: 94.0%
+Minibatch at step 136000: (5.225 sec)
+Train Accuracy: 96.9%
+Valid Accuracy: 88.0%
+Test Accuracy: 94.1%
+Minibatch at step 138000: (5.251 sec)
+Train Accuracy: 92.2%
+Valid Accuracy: 88.2%
+Test Accuracy: 94.1%
+Minibatch at step 140000: (5.241 sec)
+Train Accuracy: 83.6%
+Valid Accuracy: 88.4%
+Test Accuracy: 94.1%
+Minibatch at step 142000: (5.350 sec)
+Train Accuracy: 89.8%
+Valid Accuracy: 88.0%
+Test Accuracy: 93.9%
+Minibatch at step 144000: (5.164 sec)
+Train Accuracy: 96.1%
+Valid Accuracy: 88.5%
+Test Accuracy: 94.2%
+Minibatch at step 146000: (5.331 sec)
+Train Accuracy: 88.3%
+Valid Accuracy: 88.4%
+Test Accuracy: 94.1%
+Minibatch at step 148000: (5.221 sec)
+Train Accuracy: 85.9%
+Valid Accuracy: 88.2%
+Test Accuracy: 94.1%
+Minibatch at step 150000: (5.183 sec)
+Train Accuracy: 91.4%
+Valid Accuracy: 88.3%
+Test Accuracy: 94.2%
+Minibatch at step 152000: (5.220 sec)
+Train Accuracy: 96.1%
+Valid Accuracy: 88.4%
+Test Accuracy: 94.2%
+Minibatch at step 154000: (5.191 sec)
+Train Accuracy: 95.3%
+Valid Accuracy: 88.4%
+Test Accuracy: 94.2%
+Minibatch at step 156000: (5.262 sec)
+Train Accuracy: 90.6%
+Valid Accuracy: 88.3%
+Test Accuracy: 94.2%
+Minibatch at step 158000: (5.308 sec)
+Train Accuracy: 95.3%
+Valid Accuracy: 88.6%
+Test Accuracy: 94.3%
+Minibatch at step 160000: (5.058 sec)
+Train Accuracy: 93.0%
+Valid Accuracy: 88.5%
+Test Accuracy: 94.1%
+Minibatch at step 162000: (4.951 sec)
+Train Accuracy: 88.3%
+Valid Accuracy: 88.2%
+Test Accuracy: 93.9%
+Minibatch at step 164000: (4.897 sec)
+Train Accuracy: 95.3%
+Valid Accuracy: 88.5%
+Test Accuracy: 94.4%
+Minibatch at step 166000: (4.953 sec)
+Train Accuracy: 86.7%
+Valid Accuracy: 88.2%
+Test Accuracy: 94.3%
+Minibatch at step 168000: (5.111 sec)
+Train Accuracy: 93.8%
+Valid Accuracy: 88.4%
+Test Accuracy: 94.2%
+Minibatch at step 170000: (5.121 sec)
+Train Accuracy: 92.2%
+Valid Accuracy: 88.2%
+Test Accuracy: 94.2%
+Minibatch at step 172000: (4.866 sec)
+Train Accuracy: 93.8%
+Valid Accuracy: 88.5%
+Test Accuracy: 94.3%
+Minibatch at step 174000: (4.957 sec)
+Train Accuracy: 92.2%
+Valid Accuracy: 88.4%
+Test Accuracy: 94.2%
+Minibatch at step 176000: (5.015 sec)
+Train Accuracy: 93.0%
+Valid Accuracy: 88.5%
+Test Accuracy: 94.3%
+Minibatch at step 178000: (5.061 sec)
+Train Accuracy: 91.4%
+Valid Accuracy: 88.2%
+Test Accuracy: 94.1%
+Minibatch at step 180000: (5.059 sec)
+Train Accuracy: 92.2%
+Valid Accuracy: 88.4%
+Test Accuracy: 94.2%
+Minibatch at step 182000: (5.029 sec)
+Train Accuracy: 91.4%
+Valid Accuracy: 88.6%
+Test Accuracy: 94.3%
+Minibatch at step 184000: (5.014 sec)
+Train Accuracy: 95.3%
+Valid Accuracy: 88.5%
+Test Accuracy: 94.1%
+Minibatch at step 186000: (4.859 sec)
+Train Accuracy: 91.4%
+Valid Accuracy: 88.5%
+Test Accuracy: 94.5%
+Minibatch at step 188000: (5.017 sec)
+Train Accuracy: 96.1%
+Valid Accuracy: 88.2%
+Test Accuracy: 94.3%
+Minibatch at step 190000: (5.049 sec)
+Train Accuracy: 91.4%
+Valid Accuracy: 88.5%
+Test Accuracy: 94.2%
+Minibatch at step 192000: (4.966 sec)
+Train Accuracy: 91.4%
+Valid Accuracy: 88.2%
+Test Accuracy: 94.2%
+Minibatch at step 194000: (4.873 sec)
+Train Accuracy: 92.2%
+Valid Accuracy: 88.1%
+Test Accuracy: 94.3%
+Minibatch at step 196000: (4.983 sec)
+Train Accuracy: 91.4%
+Valid Accuracy: 88.4%
+Test Accuracy: 94.4%
+Minibatch at step 198000: (4.942 sec)
+Train Accuracy: 96.1%
+Valid Accuracy: 88.7%
+Test Accuracy: 94.2%
+Minibatch at step 200000: (4.909 sec)
+Train Accuracy: 89.1%
+Valid Accuracy: 88.2%
+Test Accuracy: 94.3%
+Optimization Finished!
