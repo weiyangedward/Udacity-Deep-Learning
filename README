@@ -3,3 +3,6 @@ https://www.tensorflow.org/get_started/mnist/mechanics
 
 APIs:
 https://www.tensorflow.org/api_docs/python/tf
+
+tutorial and papers for Convolution neural network:
+http://cs231n.github.io/convolutional-networks/
