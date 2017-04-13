@@ -76,7 +76,7 @@ def fc_cnn(train_dataset, train_labels, test_dataset, test_labels, valid_dataset
     conv_depth0, conv_depth1 = 16, 16
     # num_hidden_1 = image_size // 4 * image_size // 4 * depth_2
     num_hidden_1 = 1024
-    keep_prob_hidden = 0.7
+    keep_prob_hidden = 0.5
     fully_connected_layer_num = 5
     filter_count, conv_count = 3, 1
     conv_layer_count = 2
