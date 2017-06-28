@@ -88,11 +88,14 @@ def conv_pool_cnn(train_dataset, train_labels, test_dataset, test_labels, valid_
         # Variables.
         layer1_weights = tf.Variable(tf.truncated_normal([patch_size, patch_size, num_channels, depth], stddev=0.1))
         layer1_biases = tf.Variable(tf.zeros([depth]))
+
         layer2_weights = tf.Variable(tf.truncated_normal([patch_size, patch_size, depth, depth], stddev=0.1))
         layer2_biases = tf.Variable(tf.constant(1.0, shape=[depth]))
+
         layer3_weights = tf.Variable(
             tf.truncated_normal([image_size // 4 * image_size // 4 * depth, num_hidden], stddev=0.1))
         layer3_biases = tf.Variable(tf.constant(1.0, shape=[num_hidden]))
+        
         layer4_weights = tf.Variable(tf.truncated_normal([num_hidden, num_labels], stddev=0.1))
         layer4_biases = tf.Variable(tf.constant(1.0, shape=[num_labels]))
 
