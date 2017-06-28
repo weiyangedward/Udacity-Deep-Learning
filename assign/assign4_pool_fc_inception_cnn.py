@@ -210,7 +210,7 @@ def inception_cnn(train_dataset, train_labels, test_dataset, test_labels, valid_
 
         # decay learning rate
         global_step = tf.Variable(0)  # count the number of steps taken.
-        learning_rate = tf.train.exponential_decay(start_learning_rate, global_step, 1000000, 0.96, staircase=True)
+        learning_rate = tf.train.exponential_decay(start_learning_rate, global_step, 1000, 0.96, staircase=True)
 
         # Optimizer.
         # optimizer = tf.train.GradientDescentOptimizer(learning_rate).minimize(loss, global_step=global_step)

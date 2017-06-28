@@ -74,6 +74,7 @@ def conv_pool_cnn(train_dataset, train_labels, test_dataset, test_labels, valid_
     patch_size = 5
     depth = 16
     num_hidden = 64
+    start_learning_rate = 0.05
 
     graph = tf.Graph()
 
@@ -119,7 +120,11 @@ def conv_pool_cnn(train_dataset, train_labels, test_dataset, test_labels, valid_
         loss = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits(labels=tf_train_labels, logits=logits))
 
         # Optimizer.
-        optimizer = tf.train.GradientDescentOptimizer(0.05).minimize(loss)
+        # optimizer = tf.train.GradientDescentOptimizer(0.05).minimize(loss)
+
+        global_step = tf.Variable(0)  # count the number of steps taken.
+        learning_rate = tf.train.exponential_decay(start_learning_rate, global_step, 1000, 0.96, staircase=True)
+        optimizer = tf.train.AdagradOptimizer(learning_rate).minimize(loss)
 
         # Predictions for the training, validation, and test data.
         train_prediction = tf.nn.softmax(logits)

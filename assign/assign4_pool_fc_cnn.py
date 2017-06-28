@@ -164,7 +164,7 @@ def fc_cnn(train_dataset, train_labels, test_dataset, test_labels, valid_dataset
 
         # decay learning rate
         global_step = tf.Variable(0)  # count the number of steps taken.
-        learning_rate = tf.train.exponential_decay(start_learning_rate, global_step, 1000000, 0.96, staircase=True)
+        learning_rate = tf.train.exponential_decay(start_learning_rate, global_step, 1000, 0.96, staircase=True)
 
         # Optimizer.
         # optimizer = tf.train.GradientDescentOptimizer(learning_rate).minimize(loss, global_step=global_step)
@@ -178,7 +178,7 @@ def fc_cnn(train_dataset, train_labels, test_dataset, test_labels, valid_dataset
 
     num_steps = 200001
 
-    with tf.Session(graph=graph) as session:
+    with tf.Session(graph=graph) as sess:
         tf.global_variables_initializer().run()
         print('Initialized')
         start_time = time.time()
@@ -187,13 +187,13 @@ def fc_cnn(train_dataset, train_labels, test_dataset, test_labels, valid_dataset
             batch_data = train_dataset[offset:(offset + batch_size), :, :, :]
             batch_labels = train_labels[offset:(offset + batch_size), :]
             feed_dict = {tf_train_dataset: batch_data, tf_train_labels: batch_labels}
-            _, l, predictions = session.run([optimizer, loss, train_prediction], feed_dict=feed_dict)
+            _, l, predictions = sess.run([optimizer, loss, train_prediction], feed_dict=feed_dict)
             if (step % 2000 == 0):
                 duration = time.time() - start_time
                 print('Minibatch loss at step %d: %f (%.3f sec)' % (step, l, duration))
                 print('Minibatch accuracy: %.1f%%' % accuracy(predictions, batch_labels))
                 print('Validation accuracy: %.1f%%' % accuracy(valid_prediction.eval(), valid_labels))
                 print('Test accuracy: %.1f%%' % accuracy(test_prediction.eval(), test_labels))
-                start_time = time.time()
+                start_time = time.time()    
 
 fc_cnn(train_dataset, train_labels, test_dataset, test_labels, valid_dataset, valid_labels)

@@ -137,13 +137,13 @@ def dropout_decay_fc(train_dataset, train_labels, test_dataset, test_labels, val
 
         logits, pred_logits, regularizer = model()
         cost = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits(labels=y, logits=logits))
-        cost = tf.reduce_mean(cost + beta * regularizer)
+        # cost = tf.reduce_mean(cost + beta * regularizer)
 
         """
         use learning rate decay:
         """
         global_step = tf.Variable(0)  # count the number of steps taken.
-        learning_rate = tf.train.exponential_decay(start_learning_rate, global_step, 100000, 0.96, staircase=True)
+        learning_rate = tf.train.exponential_decay(start_learning_rate, global_step, 1000, 0.96, staircase=True)
 
         # Gradient Descent
         optimizer = tf.train.GradientDescentOptimizer(learning_rate).minimize(cost, global_step=global_step)
