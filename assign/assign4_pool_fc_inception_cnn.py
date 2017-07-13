@@ -71,7 +71,7 @@ def inception_cnn(train_dataset, train_labels, test_dataset, test_labels, valid_
     Look for example at the classic LeNet5 architecture, adding Dropout, and/or adding learning rate decay.
     """
     log_dir = './saved_models/'
-    start_learning_rate = 0.05
+    start_learning_rate = 0.1
     batch_size = 128
     patch_size = 5
     conv_depth0, conv_depth1, conv_depth2, conv_depth3 = 16, 16, 48, 48
