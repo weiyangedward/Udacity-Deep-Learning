@@ -77,7 +77,7 @@ def inception_cnn(train_dataset, train_labels, test_dataset, test_labels, valid_
     conv_depth0, conv_depth1, conv_depth2, conv_depth3 = 16, 16, 48, 48
     # num_hidden_1 = image_size // 4 * image_size // 4 * depth_2
     num_hidden_1 = 128
-    keep_prob_hidden = 0.7
+    keep_prob_hidden = 0.5
     fully_connected_layer_num = 2
     filter_count, conv_count = 3, 1
     conv_layer_count = 2
