@@ -222,7 +222,7 @@ def inception_cnn(train_dataset, train_labels, test_dataset, test_labels, valid_
         test_prediction = tf.nn.softmax(model_pred(tf_test_dataset))
 
 
-    num_steps = 200001
+    num_steps = 400001
 
     with tf.Session(graph=graph) as session:
         tf.global_variables_initializer().run()

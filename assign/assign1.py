@@ -372,7 +372,7 @@ def main():
     train_dataset_sanitized_reshape = train_dataset_sanitized.reshape((train_dataset_sanitized.shape[0], -1))
     valid_dataset_sanitized_reshape = valid_dataset_sanitized.reshape((valid_dataset_sanitized.shape[0], -1))
 
-    train_dataset_size = test_dataset_sanitized_reshape.shape[0]
+    train_dataset_size = train_dataset_sanitized_reshape.shape[0]
     print(train_dataset_size)
 
     # train on sanitized data (worse performace since there is no cheating)
