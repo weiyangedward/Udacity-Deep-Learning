@@ -1,0 +1,12 @@
+Training set (200000, 28, 28) (200000,)
+Validation set (10000, 28, 28) (10000,)
+Test set (10000, 28, 28) (10000,)
+Training set (200000, 28, 28, 1) (200000, 10)
+Validation set (10000, 28, 28, 1) (10000, 10)
+Test set (10000, 28, 28, 1) (10000, 10)
+Training set (200000, 28, 28, 1) (200000, 10)
+Validation set (10000, 28, 28, 1) (10000, 10)
+Test set (10000, 28, 28, 1) (10000, 10)
+Initialized
+Minibatch loss at step 0: 2.492273 (0.730 sec)
+Minibatch accuracy: 12.5%

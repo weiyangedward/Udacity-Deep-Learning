@@ -71,13 +71,13 @@ def inception_cnn(train_dataset, train_labels, test_dataset, test_labels, valid_
     Look for example at the classic LeNet5 architecture, adding Dropout, and/or adding learning rate decay.
     """
     log_dir = './saved_models/'
-    start_learning_rate = 0.05
+    start_learning_rate = 0.1
     batch_size = 128
     patch_size = 5
     conv_depth0, conv_depth1, conv_depth2, conv_depth3 = 16, 16, 48, 48
     # num_hidden_1 = image_size // 4 * image_size // 4 * depth_2
     num_hidden_1 = 128
-    keep_prob_hidden = 0.7
+    keep_prob_hidden = 0.5
     fully_connected_layer_num = 2
     filter_count, conv_count = 3, 1
     conv_layer_count = 2
@@ -210,7 +210,7 @@ def inception_cnn(train_dataset, train_labels, test_dataset, test_labels, valid_
 
         # decay learning rate
         global_step = tf.Variable(0)  # count the number of steps taken.
-        learning_rate = tf.train.exponential_decay(start_learning_rate, global_step, 1000000, 0.96, staircase=True)
+        learning_rate = tf.train.exponential_decay(start_learning_rate, global_step, 1000, 0.96, staircase=True)
 
         # Optimizer.
         # optimizer = tf.train.GradientDescentOptimizer(learning_rate).minimize(loss, global_step=global_step)
@@ -222,7 +222,7 @@ def inception_cnn(train_dataset, train_labels, test_dataset, test_labels, valid_
         test_prediction = tf.nn.softmax(model_pred(tf_test_dataset))
 
 
-    num_steps = 200001
+    num_steps = 400001
 
     with tf.Session(graph=graph) as session:
         tf.global_variables_initializer().run()
